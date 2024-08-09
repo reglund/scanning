@@ -22,11 +22,11 @@ To get started with the Invisible Ghost Vulnerability Scanner:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone https://github.com/reglund/scanning.git
     ```
 2. **Navigate to the Project Directory**:
     ```bash
-    cd your-repository-name
+    cd scanning/Invisible_ghost
     ```
 3. **Ensure Python 3 is Installed**:
     Make sure that Python 3 is installed on your machine. You can check this by running:
@@ -42,10 +42,10 @@ To scan your codebase for hidden Unicode characters:
 
 2. Run the script:
     ```bash
-    python3 scan_invisible_ghost_to_file.py
+    python3 ig.py
     ```
 
-3. The script will output a report named `scan_results.txt` in your home directory. This file will contain detailed information about any hidden characters found in your codebase, including:
+3. The script will output a report named `scan_results.txt` in /tmp directory. This file will contain detailed information about any hidden characters found in your codebase, including:
    - File paths where the characters were detected
    - Line numbers within those files
    - The actual lines containing the invisible characters
