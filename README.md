@@ -26,7 +26,7 @@ To get started with the Invisible Ghost Vulnerability Scanner:
     ```
 2. **Navigate to the Project Directory**:
     ```bash
-    cd scanning/Invisible_ghost
+    cd scanning/
     ```
 3. **Ensure Python 3 is Installed**:
     Make sure that Python 3 is installed on your machine. You can check this by running:
